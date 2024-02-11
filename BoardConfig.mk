@@ -120,6 +120,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/laurel_sprout
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := vendor/laurel_sprout-perf_defconfig
 TARGET_KERNEL_NO_LLVM_BINUTILS := true
+# !! git clone --depth=1 https://github.com/kdrag0n/proton-clang !!
 TARGET_KERNEL_CLANG_PATH := /home/ubuntu/proton-clang
 KERNEL_LD := LD=ld.lld
 
